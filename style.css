@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div{display: flex;}
+
+button{
+    width: 198;
+    height: 50;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    padding: 8px;
+    border: none;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 20px 9%;
+    align-items: center;
+
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+a{ 
+    text-decoration: none;
+    color: black; 
+}
+
