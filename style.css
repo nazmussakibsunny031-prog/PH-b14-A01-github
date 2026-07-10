@@ -6,11 +6,11 @@
 div{display: flex;}
 
 button{
-    width: 198;
-    height: 50;
-    background-color: blue;
+    width: 180px;
+    height: 45px;
+    background-color: rgb(25, 25, 231);
     color: white;
-    border-radius: 5px;
+    border-radius: 8px;
     padding: 8px;
     border: none;
     
@@ -36,3 +36,40 @@ a{
     color: black; 
 }
 
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(assets/banner.jpg); 
+    height: 100vh;
+    background-position: center;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+        
+}
+
+.hero{
+    text-align: center;
+    display: grid;
+    gap: 22px;
+    color: white;
+
+}
+
+.hero button{
+    width: 50%;
+    height: 55px;
+    margin-left: 24%;
+    margin-top: 48% ;
+    
+}
+
+.sub-hero{
+    text-align: center;
+    display: grid;
+    margin-top: 0px;
+    font-size: xx-large;
+}
+
+.sub-hero-2{
+    justify-content: center;
+    font-size: medium ;
+}
