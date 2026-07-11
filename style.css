@@ -220,20 +220,29 @@ span{ font-size: small; font-family:'Times New Roman', Times, serif;}
 footer{
     background-color: rgb(4, 4, 68);
     color: white;
+    padding: 25px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .link{
     justify-content: right;
+    padding: 18px;
+    display: flex;
     
 }
 
 
 .end{
-    padding: 25px 30px;
+    padding: 50px 50px;
 }
 
+.copyright{
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
 
-
+a{ color: white;}
 
 
 
