@@ -217,9 +217,20 @@ span{ font-size: small; font-family:'Times New Roman', Times, serif;}
   
 }
 
+footer{
+    background-color: rgb(4, 4, 68);
+    color: white;
+}
+
+.link{
+    justify-content: right;
+    
+}
 
 
-
+.end{
+    padding: 25px 30px;
+}
 
 
 
