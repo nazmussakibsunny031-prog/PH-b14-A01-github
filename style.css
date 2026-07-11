@@ -118,4 +118,328 @@ section h1{
     font-size: 24px;
     margin-bottom: 10px;
 }
+/* pricing*/
+
+.spot-line{ text-align: center;color: black;
+    text-align: center;
+    padding: 20px;
+    font-size: 90%;
+    font-family:Arial, Helvetica, sans-serif;
+} 
+
+span{ font-size: small; font-family:'Times New Roman', Times, serif;}
+
+
+.box{
+    height: 450px;
+    width: 350px;
+    border: 4px solid rgb(236, 223, 223);
+    display: inline;
+    background-color: aliceblue;
+}
+/*box pro*/
+.box-pro{
+    height: 450px;
+    width: 350px;
+    display: inline-block;
+    background-color: rgb(7, 8, 41);
+    color: rgba(178, 186, 212, 0.767);
+    padding-left: 35px;
+    padding-top: 35px;
+    box-sizing: border-box;
+    border-radius: 17px;
+
+}
+
+.box-pro ul{
+    display: flex;
+  flex-direction: column;
+  list-style: disc blue;
+  padding-left: 20px;
+}
+
+
+.pay{
+  margin: 18px auto ;
+  border: 1px;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  width: 300px;
+  height: 50px;
+  
+}
+.price{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+/* box standard*/
+.box-standard{
+    height: 450px;
+    width: 350px;
+    display: inline-block;
+    color: black;
+    padding-left: 35px;
+    padding-top: 35px;
+    box-sizing: border-box;
+    border-radius: 17px;
+    border: 3px solid antiquewhite;   
+
+}
+
+.box-standard ul{
+    display: flex;
+    flex-direction: column;
+    list-style: disc blue;
+    padding-left: 20px;
+  
+}
+
+/*team*/
+.box-team{
+    height: 450px;
+    width: 350px;
+    display: inline-block;
+    color: black;
+    padding-left: 35px;
+    padding-top: 35px;
+    box-sizing: border-box;
+    border-radius: 17px;
+    border: 3px solid antiquewhite;   
+}
+
+.box-team ul{
+    display: flex;
+    flex-direction: column;
+    list-style: disc blue;
+    padding-left: 20px;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                           /* Made by AI*/
+
+
+.matcher-section{
+    padding:88px 24px 96px;
+    max-width:1080px;
+    margin:0 auto;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  }
+  .matcher-eyebrow{
+    display: block;
+    text-align:center;
+    color:#7C5CFC;
+    font-size:13px;
+    font-weight:700;
+    letter-spacing:.08em;
+    text-transform:uppercase;
+    margin-bottom:12px;
+  }
+  .matcher-title{
+    display:block;
+    text-align:center;
+    color:#0F1729;
+    font-size:36px;
+    font-weight:800;
+    letter-spacing:-0.01em;
+    margin:0 0 12px;
+    padding:0;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  }
+  .matcher-sub{
+    text-align:center;
+    color:#6B7280;
+    font-size:15px;
+    max-width:480px;
+    margin:0 auto 44px;
+    line-height:1.6;
+  }
+  .matcher-card{
+    display:block;
+    background:#0B0E1B;
+    border-radius:20px;
+    padding:40px 40px 44px;
+    position:relative;
+    overflow:hidden;
+  }
+  .matcher-card::before{
+    content:"";
+    position:absolute;
+    top:-120px;
+    right:-120px;
+    width:320px;
+    height:320px;
+    background:radial-gradient(circle, rgba(124,92,252,0.35), transparent 70%);
+    pointer-events:none;
+  }
+  .matcher-step-label{
+    display:block;
+    color:#A296F0;
+    font-size:12px;
+    font-weight:700;
+    letter-spacing:.08em;
+    text-transform:uppercase;
+    margin-bottom:8px;
+    position:relative;
+    z-index:1;
+  }
+  .matcher-question{
+    color:#FFFFFF;
+    font-size:20px;
+    font-weight:700;
+    margin:0 0 22px;
+    position:relative;
+    z-index:1;
+  }
+  .track-input{
+    position:absolute;
+    opacity:0;
+    width:0;
+    height:0;
+  }
+  .chip-row{
+    display:flex;
+    gap:10px;
+    margin-bottom:8px;
+    position:relative;
+    z-index:1;
+  }
+  .chip{
+    display:inline-block;
+    border:1.5px solid rgba(255,255,255,0.18);
+    background:rgba(255,255,255,0.04);
+    color:#D8D6EA;
+    padding:10px 18px;
+    border-radius:999px;
+    font-size:14px;
+    font-weight:600;
+    cursor:pointer;
+    user-select:none;
+  }
+  .chip:hover{
+    border-color:rgba(124,92,252,0.6);
+    background:rgba(124,92,252,0.12);
+  }
+  .track-input:checked + .chip{
+    background:#7C5CFC;
+    border-color:#7C5CFC;
+    color:#FFFFFF;
+  }
+  .matcher-hint{
+    color:#8B8AA3;
+    font-size:13px;
+    margin:18px 0 0;
+    position:relative;
+    z-index:1;
+  }
+  .matcher-results{
+    display:block;
+    position:relative;
+    z-index:1;
+    margin-top:24px;
+    padding-top:24px;
+    border-top:1px solid rgba(255,255,255,0.1);
+  }
+  .matcher-results-heading{
+    color:#FFFFFF;
+    font-size:15px;
+    font-weight:700;
+    margin:0 0 16px;
+  }
+  .matcher-result-grid{
+    display:flex;
+    gap:14px;
+  }
+  .matcher-result-card{
+    display:none;
+    background:#FFFFFF;
+    border-radius:14px;
+    padding:18px 18px 20px;
+    flex:1;
+  }
+  #track-ai:checked ~ .matcher-results .card-ai,
+  #track-cloud:checked ~ .matcher-results .card-cloud,
+  #track-frontend:checked ~ .matcher-results .card-frontend,
+  #track-security:checked ~ .matcher-results .card-security{
+    display:block;
+  }
+  .matcher-empty-note{ display:block; color:#8B8AA3; font-size:13.5px; }
+  #track-ai:checked ~ .matcher-results .matcher-empty-note,
+  #track-cloud:checked ~ .matcher-results .matcher-empty-note,
+  #track-frontend:checked ~ .matcher-results .matcher-empty-note,
+  #track-security:checked ~ .matcher-results .matcher-empty-note{
+    display:none;
+  }
+  .matcher-result-track{
+    display:inline-block;
+    background:#EDE9FE;
+    color:#7C5CFC;
+    font-size:11px;
+    font-weight:700;
+    letter-spacing:.04em;
+    text-transform:uppercase;
+    padding:4px 10px;
+    border-radius:999px;
+    margin-bottom:10px;
+  }
+  .matcher-result-session{
+    color:#0F1729;
+    font-size:16px;
+    font-weight:700;
+    margin:0 0 4px;
+    line-height:1.35;
+  }
+  .matcher-result-speaker{
+    color:#6B7280;
+    font-size:13px;
+    margin:0 0 12px;
+  }
+  .matcher-result-meta{
+    display:flex;
+    gap:14px;
+    color:#8A8FA6;
+    font-size:12.5px;
+    font-weight:600;
+    border-top:1px solid #E5E7EB;
+    padding-top:10px;
+  }
+
+
+
+
+
+
+
+
 
